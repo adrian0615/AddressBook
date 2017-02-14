@@ -24,19 +24,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let contactVC = mainStoryboard.instantiateViewController(withIdentifier: "ContactDetails") as! ContactViewController
         
+        let masterNav = UINavigationController(rootViewController: contactListVC)
+        let detailNav = UINavigationController(rootViewController: contactVC)
         
+        let editingVC = mainStoryboard.instantiateViewController(withIdentifier: "EditView") as! EditingViewController
+        
+        editingVC.delegate = contactListVC
+
         contactListVC.selectionClosure = { contact in
             contactVC.contact = contact
-            splitVC.showDetailViewController(contactVC, sender: nil)
+            splitVC.showDetailViewController(detailNav, sender: nil)
         }
         
-        let masterNav = UINavigationController(rootViewController: contactListVC)
-        
+        contactListVC.detailViewController = contactVC
         masterNav.navigationBar.backgroundColor = UIColor.cyan
-        
     
-        
-        splitVC.viewControllers = [masterNav, contactVC]
+        splitVC.viewControllers = [masterNav, detailNav]
         
         return true
     }

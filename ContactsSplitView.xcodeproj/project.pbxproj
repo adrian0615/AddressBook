@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07477D7E1E528EA3009DC76E /* ContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07477D7D1E528EA3009DC76E /* ContactTests.swift */; };
 		07DF38EF1E37C89B0037E65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF38EE1E37C89B0037E65D /* AppDelegate.swift */; };
 		07DF38F11E37C89B0037E65D /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF38F01E37C89B0037E65D /* ContainerViewController.swift */; };
 		07DF38F41E37C89B0037E65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DF38F21E37C89B0037E65D /* Main.storyboard */; };
@@ -16,13 +17,10 @@
 		07DF390F1E37C89B0037E65D /* ContactsSplitViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF390E1E37C89B0037E65D /* ContactsSplitViewUITests.swift */; };
 		07DF391D1E37C8D30037E65D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF391C1E37C8D30037E65D /* Contact.swift */; };
 		07DF391F1E37CCE40037E65D /* ContactStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF391E1E37CCE40037E65D /* ContactStore.swift */; };
-		07DF39211E37CCFE0037E65D /* ContactPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF39201E37CCFE0037E65D /* ContactPost.swift */; };
 		07DF39231E37D4C20037E65D /* ContactStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF39221E37D4C20037E65D /* ContactStoreTests.swift */; };
-		07DF39251E37D51A0037E65D /* ContactPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF39241E37D51A0037E65D /* ContactPost.swift */; };
 		07DF39271E37EDD00037E65D /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF39261E37EDD00037E65D /* ContactListTableViewController.swift */; };
 		07DF39291E37F1D20037E65D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF39281E37F1D20037E65D /* ContactViewController.swift */; };
 		07DF392B1E383DB40037E65D /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF392A1E383DB40037E65D /* EditingViewController.swift */; };
-		07DF392D1E3842280037E65D /* ContactsNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF392C1E3842280037E65D /* ContactsNavController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07477D7D1E528EA3009DC76E /* ContactTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTests.swift; sourceTree = "<group>"; };
 		07DF38EB1E37C89B0037E65D /* ContactsSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DF38EE1E37C89B0037E65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07DF38F01E37C89B0037E65D /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
@@ -58,13 +57,10 @@
 		07DF39101E37C89B0037E65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07DF391C1E37C8D30037E65D /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		07DF391E1E37CCE40037E65D /* ContactStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactStore.swift; sourceTree = "<group>"; };
-		07DF39201E37CCFE0037E65D /* ContactPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactPost.swift; sourceTree = "<group>"; };
 		07DF39221E37D4C20037E65D /* ContactStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactStoreTests.swift; sourceTree = "<group>"; };
-		07DF39241E37D51A0037E65D /* ContactPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactPost.swift; sourceTree = "<group>"; };
 		07DF39261E37EDD00037E65D /* ContactListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
 		07DF39281E37F1D20037E65D /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		07DF392A1E383DB40037E65D /* EditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
-		07DF392C1E3842280037E65D /* ContactsNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsNavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				07DF38EE1E37C89B0037E65D /* AppDelegate.swift */,
+				07DF38F21E37C89B0037E65D /* Main.storyboard */,
 				07DF38F01E37C89B0037E65D /* ContainerViewController.swift */,
 				07DF39261E37EDD00037E65D /* ContactListTableViewController.swift */,
 				07DF39281E37F1D20037E65D /* ContactViewController.swift */,
 				07DF392A1E383DB40037E65D /* EditingViewController.swift */,
-				07DF392C1E3842280037E65D /* ContactsNavController.swift */,
 				07DF391C1E37C8D30037E65D /* Contact.swift */,
 				07DF391E1E37CCE40037E65D /* ContactStore.swift */,
-				07DF39201E37CCFE0037E65D /* ContactPost.swift */,
-				07DF38F21E37C89B0037E65D /* Main.storyboard */,
 				07DF38F51E37C89B0037E65D /* Assets.xcassets */,
 				07DF38F71E37C89B0037E65D /* LaunchScreen.storyboard */,
 				07DF38FA1E37C89B0037E65D /* Info.plist */,
@@ -137,7 +131,7 @@
 			children = (
 				07DF39031E37C89B0037E65D /* ContactsSplitViewTests.swift */,
 				07DF39221E37D4C20037E65D /* ContactStoreTests.swift */,
-				07DF39241E37D51A0037E65D /* ContactPost.swift */,
+				07477D7D1E528EA3009DC76E /* ContactTests.swift */,
 				07DF39051E37C89B0037E65D /* Info.plist */,
 			);
 			path = ContactsSplitViewTests;
@@ -287,11 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07DF39271E37EDD00037E65D /* ContactListTableViewController.swift in Sources */,
-				07DF392D1E3842280037E65D /* ContactsNavController.swift in Sources */,
 				07DF392B1E383DB40037E65D /* EditingViewController.swift in Sources */,
 				07DF39291E37F1D20037E65D /* ContactViewController.swift in Sources */,
 				07DF391D1E37C8D30037E65D /* Contact.swift in Sources */,
-				07DF39211E37CCFE0037E65D /* ContactPost.swift in Sources */,
 				07DF38F11E37C89B0037E65D /* ContainerViewController.swift in Sources */,
 				07DF391F1E37CCE40037E65D /* ContactStore.swift in Sources */,
 				07DF38EF1E37C89B0037E65D /* AppDelegate.swift in Sources */,
@@ -304,7 +296,7 @@
 			files = (
 				07DF39231E37D4C20037E65D /* ContactStoreTests.swift in Sources */,
 				07DF39041E37C89B0037E65D /* ContactsSplitViewTests.swift in Sources */,
-				07DF39251E37D51A0037E65D /* ContactPost.swift in Sources */,
+				07477D7E1E528EA3009DC76E /* ContactTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +533,7 @@
 				07DF39151E37C89B0037E65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07DF39161E37C89B0037E65D /* Build configuration list for PBXNativeTarget "ContactsSplitViewTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +542,7 @@
 				07DF39181E37C89B0037E65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07DF39191E37C89B0037E65D /* Build configuration list for PBXNativeTarget "ContactsSplitViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +551,7 @@
 				07DF391B1E37C89B0037E65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

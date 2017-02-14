@@ -32,10 +32,24 @@ class ContactViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        update()
+        fullNameLabel.isHidden = true
+        phoneNumberLabel.isHidden = true
+        emailAddressLabel.isHidden = true
+        addressLabel.isHidden = true
+        birthdayLabel.isHidden = true
+        noteLabel.isHidden = true
+        
     }
     
     func update() {
+        fullNameLabel.isHidden = false
+        phoneNumberLabel.isHidden = false
+        emailAddressLabel.isHidden = false
+        addressLabel.isHidden = false
+        birthdayLabel.isHidden = false
+        noteLabel.isHidden = false
+        
+        
         fullNameLabel.text = contact?.fullName ?? "Name"
         phoneNumberLabel.text = contact?.phoneNumber ?? "Phone"
         emailAddressLabel.text = contact?.emailAddress ?? "Email"
